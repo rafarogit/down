@@ -2,9 +2,9 @@
 certutil -urlcache -split -f "https://getscreen.me/download/getscreen.exe" getscreen.exe
 pip install pyautogui --quiet
 pip install psutil --quiet
-curl -s -L -o time.py https://www.dropbox.com/scl/fi/ox42qglbf6fsnm9erf8cw/timelimit.py?rlkey=opyeqgum1k95kud81xlc7d66r&dl=0
-curl -s -L -o login.py https://www.dropbox.com/scl/fi/25scrjwr7uowudanpoy5j/login.py?rlkey=qpno7iax6jt5p2gnf8u7ytcle&dl=0
-curl -s -L -o C:\Users\Public\Desktop\install.bat https://www.dropbox.com/scl/fi/un5i7o3d559rdjv3kcs4n/install.bat?rlkey=tpp1noqra3fcz3gu2yi7ifb0e&dl=0
+curl -s -L -o time.py https://raw.githubusercontent.com/rafarogit/down/main/timelimit.py
+curl -s -L -o login.py https://raw.githubusercontent.com/rafarogit/down/main/login.py
+curl -s -L -o C:\Users\Public\Desktop\install.bat https://raw.githubusercontent.com/rafarogit/down/main/install.bat
 curl -s -L -o C:\Users\Public\Desktop\Telegram.exe https://telegram.org/dl/desktop/win64
 curl -s -L -o C:\Users\Public\Desktop\Winrar.exe https://www.rarlab.com/rar/winrar-x64-621.exe
 powershell -Command "Invoke-WebRequest 'https://github.com/chieunhatnang/VM-QuickConfig/releases/download/1.6.1/VMQuickConfig.exe' -OutFile 'C:\Users\Public\Desktop\VMQuickConfig.exe'"
